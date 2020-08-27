@@ -19,21 +19,21 @@ SUE stands for *S*wift*U*I *E*xtras and is a collection of small SwiftUI librari
 Rectangle().foregroundColor(.gray)
     .overlay($hidden, Text("Hej Hej").overlayStyle("Goddåg"))
 ```
-[ConditionalOverlay](Doc/ConditionalOverlay.png)
+![ConditionalOverlay](Doc/ConditionalOverlay.png)
 
 ### ObservingOverlay
 ```swift
 Rectangle().foregroundColor(.gray)
     .overlay(Demo(), keyPath: \Demo.test)
 ```
-[ObservingOverlay](Doc/ObservingOverlay.png)
+![ObservingOverlay](Doc/ObservingOverlay.png)
 
 ### OverlayStyle
 ```swift
 Rectangle().foregroundColor(.gray)
     .overlay(Text("Bonjour!").overlayStyle("Français"))
 ```
-[OverlayStyle](Doc/OverlayStyle.png)
+![OverlayStyle](Doc/OverlayStyle.png)
 
 
 ### Hideable
@@ -43,7 +43,7 @@ HStack{
     Text(" World").hide($hidden2)
 }
 ```
-[Hideable](Doc/Hideable.png)
+![Hideable](Doc/Hideable.png)
 
 
 ## License
